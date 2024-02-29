@@ -6,7 +6,7 @@ main:
     url: https://www.woodwellclimate.org/
 docs:
   - title: Climate Risks
-  children:
+    children:
     - title: "Heat"
       url: https://davbyr.github.io/
     - title: "Drought"
@@ -21,7 +21,7 @@ docs:
       url: https://davbyr.github.io/
       
   - title: Our Toolbox
-  children:
+    children:
     - title: "Bias Adjustment & Downscaling"
       url: https://davbyr.github.io/
     - title: "Warming Level Identification"
