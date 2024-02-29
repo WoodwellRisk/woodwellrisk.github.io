@@ -16,4 +16,4 @@ For more information, see our publication [here](https://www.science.org/doi/10.
 ### [Lost Productivity](https://github.com/WoodwellRisk/Lost_Productivity)
 When workers are exposed to high temperatures and high humidity, their health can be significantly impacted, which in turn can have consequences for productivity. For this metric, we can analyse ensembles of climate data to estimate percentage losses in producivity of medium and heavy outdoor workers. 
 
-This metric is based on work by (Parsons et al., (2021))[https://www.nature.com/articles/s41467-021-27328-y#data-availability], which you can view for more methodology information.
+This metric is based on work by [Parsons et al., (2021)](https://www.nature.com/articles/s41467-021-27328-y#data-availability), which you can view for more methodology information.
