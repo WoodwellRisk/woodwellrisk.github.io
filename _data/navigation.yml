@@ -14,7 +14,7 @@ docs:
     children:
     - title: "Heat"
       url: /risk_heat/
-    - title: "Drought"
+    - title: "Drought & Water"
       url: https://davbyr.github.io/
     - title: "Flooding"
       url: https://davbyr.github.io/
@@ -22,7 +22,7 @@ docs:
       url: https://davbyr.github.io/
     - title: "Agriculture"
       url: https://davbyr.github.io/
-    - title: "Disease Vectors"
+    - title: "Wildfire"
       url: https://davbyr.github.io/
       
   - title: Our Toolbox
