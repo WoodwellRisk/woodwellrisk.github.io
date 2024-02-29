@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-### As the threat of climate change grows, so does the need for accessible climate risk analyses.
+As the threat of climate change grows, so does the need for accessible climate risk analyses.
 
 The way that Earth’s natural systems respond to a rapidly warming climate will impact our quality of life for generations to come. To protect against future climate-driven risks, municipalities must be armed with the most up-to-date and location-specific science so they can make informed grant-writing, planning, zoning, and adaptation decisions.
 
