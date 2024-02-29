@@ -1,4 +1,8 @@
 ---
+layout: single
+author_profile: false
+sidebar:
+  nav: "docs"
 ---
 
 test
