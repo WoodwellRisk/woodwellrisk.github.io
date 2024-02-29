@@ -5,9 +5,10 @@ main:
   
   - title: "Woodwell"
     url: https://www.woodwellclimate.org/
-docs:
-  - title: About
+
+  - title: "About"
     url: https://davbyr.github.io/
+docs:
     
   - title: Climate Risks
     children:
