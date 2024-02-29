@@ -27,7 +27,7 @@ docs:
       
   - title: Our Toolbox
     children:
-    - title: "Bias Adjustment & Downscaling"
+    - title: "Climate Data"
       url: https://davbyr.github.io/
     - title: "Warming Level Identification"
       url: https://davbyr.github.io/
