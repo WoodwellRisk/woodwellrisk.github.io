@@ -4,9 +4,25 @@ main:
     url: https://www.woodwellclimate.org/project/just-access/
   - title: "Woodwell"
     url: https://www.woodwellclimate.org/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+docs:
+  - title: Climate Risks
+  children:
+    - title: Heat
+      url: /docs/risk_heat/
+    - title: Drought
+      url: /docs/risk_heat/
+    - title: Flooding
+      url: /docs/risk_heat/
+    - title: Coastal
+      url: /docs/risk_heat/
+    - title: Agriculture
+      url: /docs/risk_heat/
+    - title: Disease Vectors
+      url: /docs/risk_heat/
+      
+  - title: Our Toolbox
+  children:
+    - title: Bias Adjustment & Downscaling
+      url: /docs/risk_heat/
+    - title: Warming Level Identificaiton
+      url: /docs/risk_heat/
