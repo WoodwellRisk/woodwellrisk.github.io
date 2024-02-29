@@ -7,7 +7,7 @@ docs:
   - title: Climate Risks
     children:
     - title: "Heat"
-      url: /_pages/risk_heat.md
+      url: _pages/risk_heat.md
     - title: "Drought"
       url: https://davbyr.github.io/
     - title: "Flooding"
