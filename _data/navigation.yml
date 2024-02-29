@@ -8,21 +8,21 @@ docs:
   - title: Climate Risks
   children:
     - title: Heat
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
     - title: Drought
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
     - title: Flooding
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
     - title: Coastal
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
     - title: Agriculture
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
     - title: Disease Vectors
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
       
   - title: Our Toolbox
   children:
     - title: Bias Adjustment & Downscaling
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
     - title: Warming Level Identificaiton
-      url: /docs/risk_heat/
+      url: https://davbyr.github.io/
