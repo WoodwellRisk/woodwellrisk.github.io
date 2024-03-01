@@ -13,7 +13,16 @@ In very hot or very humid conditions, heat can become lethal to people exposed f
 
 For more information, see our publication [here](https://www.science.org/doi/10.1126/sciadv.adg9297).
 
-### [Lost Productivity](https://github.com/WoodwellRisk/Lost_Productivity)
+### Extreme Heat
+Many communities will have some level of adaptation to their historical temperature conditions. Our Extreme Heat metric calculates the temperature at which only 5% of days exceed during a baseline period and estimates how often that will occur under future climates. This is useful to examine how historical adaptation measures will be challenged. To calculate this, we use daily temperature data from 17 CMIP6 ensemble members, which have been bias adjusted and downscaled (see **[Climate Data](/tool_data/)**). 
+
+### Heat Danger Days
+Heat Index (see [here](https://www.weather.gov/ama/heatindex)) combined temperature and relative humidity to estimate the temperature perceived by humans. The National Weather Service defines 39.4C (103F) as a 'dangerous' threshold. Above this threshold, exposed people may experience heat cramps, exhaustion and possibly heast stroke. To calculate this, we use daily temperature data from 17 CMIP6 ensemble members, which have been bias adjusted and downscaled (see **[Climate Data](/tool_data/)
+
+### Lost Productivity [![GH Logo](/assets/images/github-mark.png)](https://github.com/WoodwellRisk/Lost_Productivity)
 When workers are exposed to high temperatures and high humidity, their health can be significantly impacted, which in turn can have consequences for productivity. For this metric, we can analyse ensembles of climate data to estimate percentage losses in producivity of medium and heavy outdoor workers. 
 
 This metric is based on work by [Parsons et al., (2021)](https://www.nature.com/articles/s41467-021-27328-y#data-availability), which you can view for more methodology information.
+
+
+

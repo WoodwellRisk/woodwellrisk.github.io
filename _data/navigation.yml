@@ -12,21 +12,22 @@ docs:
     children:
     - title: "Heat"
       url: /risk_heat/
-    - title: "Drought & Water"
-      url: https://davbyr.github.io/
-    - title: "Flooding"
-      url: https://davbyr.github.io/
-    - title: "Coastal"
-      url: https://davbyr.github.io/
-    - title: "Agriculture"
-      url: https://davbyr.github.io/
     - title: "Wildfire"
-      url: https://davbyr.github.io/
+      url: /risk_fire/
+    - title: "Drought & Water"
+      url: /risk_drought-water/
+    - title: "Flooding"
+      url: /risk_flooding/
+    - title: "Coastal"
+      url: /risk_coastal/
+    - title: "Agriculture"
+      url: /risk_agriculture/
       
   - title: Data & Tools
     children:
     - title: "Climate Data"
-      url: https://davbyr.github.io/
-    - title: "Warming Level Identification"
-      url: https://davbyr.github.io/
+      url: /tools_climate-data/
+    - title: "Warming Levels"
+      url: /tools_warming-levels/
     - title: "Diluvium DEM"
+      url: /tools_diluvium/

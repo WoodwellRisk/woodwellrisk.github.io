@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 sidebar:
   nav: "docs"
-permalink: /risk_heat/
+permalink: /risk_agriculture/
 ---
 
 ### Crop Failure
