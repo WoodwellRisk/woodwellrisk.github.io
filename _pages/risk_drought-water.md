@@ -6,6 +6,7 @@ sidebar:
 permalink: /risk_drought-water/
 ---
 
+# Drought & Water Scarcity
 
 ### Drought PDSI
 The Palmer Drought Severity Index ([PDSI](https://climatedataguide.ucar.edu/climate-data/palmer-drought-severity-index-pdsi)) is a well-established drought indicator that describes environmental water balance using monthly precipitation and evapotranspiration. This metric measures the annual average months with drought at, or below, a specified level based on monthly PDSI index, and the projected change in months for a future time period. It is a normalized index ranging from -10 to +10, with negative (positive) values indicating dry (wet) conditions.  Severe, or worse, drought is characterized by a PDSI value ≤ -3, and extreme drought has PDSI ≤ -4. The self-calibrated PDSI ([sc-PDSI](https://journals.ametsoc.org/view/journals/clim/17/12/1520-0442_2004_017_2335_aspdsi_2.0.co_2.xml?tab_body=fulltext-display)) was used here, which accounts for spatial variation in precipitation by calibrating to the local, historical climate. This enables comparable results over climatically diverse regions. sc-PDSI was computed using [REMO2015](https://remo-rcm.de/), a CMIP5-era monthly, high-resolution (0.2° or ~22km) regional climate model, an RCP8.5 emission scenario, and a calibration time period of 1971–2000.

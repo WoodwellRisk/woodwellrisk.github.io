@@ -6,6 +6,8 @@ sidebar:
 permalink: /risk_tropical-cyclone/
 ---
 
+# Tropical Cyclones
+
 *Tropical cyclones (also known as hurricanes and typhoons) as powerful marine storms which can pose a significant threat to coastal communities. Their strong winds and rainfall can lead to widespread damage and dangerous coastal floods, posing a real threat to life. As rare extreme events, it is a challenge to assess their association risks from historical data alone. Therefore, statistical simulations are often used to evaluate their locations, wind speeds, rainfall and flooding under different climate scenarios.*
 
 *For our tropical cyclone risk analyses, we use STORM synthetically generated tropical cyclones. This dataset offers 10,000 years of statistically generated tracks and intensities for every ocean globally and projects out to 2050. For more information on these tracks, see the following publications:*

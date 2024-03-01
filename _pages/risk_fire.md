@@ -5,6 +5,7 @@ sidebar:
   nav: "docs"
 permalink: /risk_fire/
 ---
+# Wildfire
 
 *When wildfires become out of control, they can destroy homes, impact habitats and cause large amounts of particulate matter (smoke), which can have significant impacts on human health.*
 
