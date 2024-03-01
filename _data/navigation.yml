@@ -25,9 +25,10 @@ docs:
     - title: "Wildfire"
       url: https://davbyr.github.io/
       
-  - title: Our Toolbox
+  - title: Data & Tools
     children:
     - title: "Climate Data"
       url: https://davbyr.github.io/
     - title: "Warming Level Identification"
       url: https://davbyr.github.io/
+    - title: "Diluvium DEM"
