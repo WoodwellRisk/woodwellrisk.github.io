@@ -4,9 +4,26 @@ These are the files for the codes and methods website of Woodwell Climate Resear
 
 This website framework is based on a fork of minimal-mistakes, which is a Jekyll theme framework. 
 
-### Adding and Editing Webpages
+You can edit files directly in the Github editor, however it is not recommended. You should clone this repository onto your machine and make any edits/additions there. You can then add, commit and push your changes. Once Github receives your pushed changed, it will automatically rebuild and deploy the website. If this fails for whatever reason, a red x will eventually appear on the repository. The website will always be rendered as the last working version, so errors aren't a huge problem if dealt with quickly.
 
-Webpages are simply markdown files with a small header. They are kept in the _pages/ directory, or subdirectory thereof. 
-To add a new page, I would recommend duplicating an existing page (to get it's header). Then you can go ahead and write the page however you like using the markdown language.
-The Jekyll/minimal-mistakes framework will handle everything else when it renders the website.
+To avoid accidentally pushing errors to the website, you can run a local server and open it in your browser. To set this up, follow the instructions [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+
+### File Structure
+Here are some important bits of the file structure:
+
+1. **Webpage Markdown Files**: Each webpage is a markdown file and these are found in `_pages/`, with the exception of `index.md` in the root directory. This file is the home page.
+2. **Image Files**: These are kept in `/assets/images/` and subdirectories.
+3. **Navigation Bars**: You can edit vertical and horizontal navigation bars using the `_data/navigation.yml`.
+
+### Editing Webpages
+To edit an existing webpage, just edit its corresponding markdown file in `_pages/`.
+
+### Adding new webpages
+Make a copy of `_pages/risk_template.md` and edit it as you like.
+
+To create a sidebar navigation link for the page:
+
+1. Name the `permalink` in the file header to the name of the file. This is the URL extension that corresponds to the page, e.g. `permalink: /risk_fire/` corresponds to `woodwellrisk.github.io/risk_fire`.
+2. Go into `_data/navigation.yml`.
+3. Copy and paste a `title` and `url` line. Rename the title (what will appear on the sidebar) and change the url to match `permalink`.
 
