@@ -6,7 +6,7 @@ sidebar:
 permalink: /tools_climate-data/
 ---
 
-We use climate data from multiple sources in our projections and many of our analyses require preprocessing steps. For example, some model data must be **downscaled** to a higher resolutions for more bespoke, local analyses, and **biases** must be removed.
+We use climate data from multiple sources in our projections and many of our analyses require preprocessing steps. For example, some model data must be **downscaled** to higher resolutions for more bespoke, local analyses, and **biases** must be removed.
 
 ### CMIP Model Ensembles
 
