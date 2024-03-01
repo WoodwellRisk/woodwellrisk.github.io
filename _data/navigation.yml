@@ -18,6 +18,8 @@ docs:
       url: /risk_drought-water/
     - title: "Flooding"
       url: /risk_flooding/
+    - title: "Tropical Cyclones"
+      url: /risk_tropical-cyclone/
     - title: "Coastal"
       url: /risk_coastal/
     - title: "Agriculture"
