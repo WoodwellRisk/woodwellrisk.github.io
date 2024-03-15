@@ -27,3 +27,4 @@ To create a sidebar navigation link for the page:
 2. Go into `_data/navigation.yml`.
 3. Copy and paste a `title` and `url` line. Rename the title (what will appear on the sidebar) and change the url to match `permalink`.
 
+### Images
