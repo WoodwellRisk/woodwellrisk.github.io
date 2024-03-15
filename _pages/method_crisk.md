@@ -17,13 +17,13 @@ The framework consists of three key modelling components:
 
 **Hurricane Model** 
 
-3000 years of synthetic tracks from the STORM dataset [3,4] are expanded into 2 dimensional pressure and wind stress fields using the Holland model [5] and a parametric wind stress relationship [6]. These fields are used to force an ocean model. Wind and pressure fields are generated using the [ParaTC](https://github.com/davbyr/ParaTC) Python package.
+3000 years of synthetic tracks from the STORM dataset [3,4] are expanded into 2 dimensional pressure and wind stress fields using the Holland model [5] and a parametric wind stress relationship [6]. These fields are used to force an ocean model. Wind and pressure fields are generated using the <a href='https://github.com/davbyr/ParaTC' target='_blank'>ParaTC</a>  Python package.
 
 **Ocean Model** 
 
 The Regional Ocean Modelling System (ROMS) [7] is used to simulate sea surface height. The domain is generated using bathymetry from GEBCO2023 and uses wetting and drying. 1km grids can be nested within larger 5-10km grids to provide high resolution analyses.
 
-The ocean ROMS component of the framework is validated by comparing simulated storm surge heights with those measured at tide gauges. Measured storm surge heights are estimated by subtracting a tidal harmonic analysis using the [UTide](https://pypi.org/project/UTide/) Python package. This is done according to the guidelines set out in [9].
+The ocean ROMS component of the framework is validated by comparing simulated storm surge heights with those measured at tide gauges. Measured storm surge heights are estimated by subtracting a tidal harmonic analysis using the <a href='https://pypi.org/project/UTide/' target='_blank'>UTide</a> Python package. This is done according to the guidelines set out in [9].
 
 This validation be done for any region of interest, however time series lengths are often short. Here, we have validated the ROMS configuration against 11 tide gauges around the U.S. for 58 tropical cyclone events. The results are shown below:
 

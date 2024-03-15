@@ -12,15 +12,15 @@ permalink: /risk_tropical-cyclone/
 
 *For our tropical cyclone risk analyses, we use STORM synthetically generated tropical cyclones. This dataset offers 10,000 years of statistically generated tracks and intensities for every ocean globally and projects out to 2050. For more information on these tracks, see the following publications:*
 
-[Bloemendaal et al., (2020)](https://www.nature.com/articles/s41597-020-0381-2)
+<a href='https://www.nature.com/articles/s41597-020-0381-2' target='_blank'>Bloemendaal et al., (2020)</a>
 
-[Bloemendaal et al., (2022)](https://www.science.org/doi/10.1126/sciadv.abm8438)
+<a href='https://www.science.org/doi/10.1126/sciadv.abm8438' target='_blank'>Bloemendaal et al., (2022)</a> 
 
-### Intensity Return Periods [![GH Logo](/assets/images/github-mark.png)](https://github.com/WoodwellRisk/CRisk)
+### Intensity Return Periods <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
 We can use simulated tropical cyclone tracks to determine how often storms of different intensities approach a location. Specifically, for our analysis we look at storms passing within 100km. The distance from each storm center and grid point on a high resolution grid is calculated. Where this distance is less than or equal to 100km, the category of the storm (Tropical storm - category 5) is recorded. Across all storms and years, the number of storms passing each grid point is counted for each category, then divided by 10,000 to obtain the mean number of storms passing annually.
 
 We are able to use this analysis to derive return periods and the number of storms per year.
 
 
-### Wind Speed Return Periods [![GH Logo](/assets/images/github-mark.png)](https://github.com/WoodwellRisk/CRisk)
-The Holland model [(Holland, 1980)](https://journals.ametsoc.org/view/journals/mwre/108/8/1520-0493_1980_108_1212_aamotw_2_0_co_2.xml) offers a way to expand synthetic tracks into 2 dimensional wind and pressure fields at the surface. By applying this model to 3000 years of simulated tracks, we can estimate reliable windspeed return periods around the world. To do this, we use the [CLIMADA](https://climada-python.readthedocs.io/en/stable/) Python toolbox, which offers workflows that can automate this analysis.
+### Wind Speed Return Periods <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
+The Holland model <a href='https://journals.ametsoc.org/view/journals/mwre/108/8/1520-0493_1980_108_1212_aamotw_2_0_co_2.xml' target='_blank'>(Holland, 1980)</a>  offers a way to expand synthetic tracks into 2 dimensional wind and pressure fields at the surface. By applying this model to 3000 years of simulated tracks, we can estimate reliable windspeed return periods around the world. To do this, we use the <a href='https://climada-python.readthedocs.io/en/stable/' target='_blank'>CLIMADA</a> Python toolbox, which offers workflows that can automate this analysis.

@@ -6,7 +6,7 @@ sidebar:
 permalink: /risk_coastal/
 ---
 
-# Coastal Risk Framework [![GH Logo](/assets/images/github-mark.png)](https://github.com/WoodwellRisk/CRisk)
+# Coastal Risk Framework <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
 
 Our Coastal Risk Framework uses state of the art numerical and statistical modelling techniques to estimate coastal storm surge (due to tropical cyclones) return periods anywhere in the world. The framework consists of synthetic tropical cyclones (as in [Tropical Cyclones](/risk_tropical-cyclone/)), statistical hurricane models, a numerical ocean model (ROMS) and our LISFLOOD flood model configuration (see [Flooding](/risk_flooding/)). The final analysis is coastal storm surge return levels and flood inundation extents for coastal communities.
 
