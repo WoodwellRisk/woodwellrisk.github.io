@@ -18,7 +18,7 @@ We can count the number of simulated tracks that approach a location within a sp
 
 **How strong will tropical cyclone winds be?**
 
-Wind speeds are highest just outside of the eyewall of a hurricane and generally decrease with distance. The simulated tracks we employ only provide information about the storm location, size and central intensity. To expand each of these tracks into full surface wind and pressure fields, we use the parametric model of <a href='https://journals.ametsoc.org/view/journals/mwre/108/8/1520-0493_1980_108_1212_aamotw_2_0_co_2.xml' target='_blank'>Holland, 1980</a>. We then use the <a href='https://climada-python.readthedocs.io/en/stable/' target='_blank'>CLIMADA</a> Python toolbox to generate these wind fields for thousands of years, allowing us to do a statistical analyses and estimate windspeeds ar 50, 100 and 200 year return periods.
+Wind speeds are highest just outside of the eyewall of a hurricane and generally decrease with distance. The simulated tracks we employ only provide information about the storm location, size and central intensity. To expand each of these tracks into full surface wind and pressure fields, we use the parametric model of <a href='https://journals.ametsoc.org/view/journals/mwre/108/8/1520-0493_1980_108_1212_aamotw_2_0_co_2.xml' target='_blank'>Holland, (1980)</a>. We then use the <a href='https://climada-python.readthedocs.io/en/stable/' target='_blank'>CLIMADA</a> Python toolbox to generate these wind fields for thousands of years, allowing us to do a statistical analysis and estimate windspeeds ar 50, 100 and 200 year return periods.
 
 **How high will the storm surge be?**
 
