@@ -6,21 +6,20 @@ sidebar:
 permalink: /risk_tropical-cyclone/
 ---
 
-# Tropical Cyclones
+# Tropical Cyclones <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
 
-*Tropical cyclones (also known as hurricanes and typhoons) as powerful marine storms which can pose a significant threat to coastal communities. Their strong winds and rainfall can lead to widespread damage and dangerous coastal floods, posing a real threat to life. As rare extreme events, it is a challenge to assess their association risks from historical data alone. Therefore, statistical simulations are often used to evaluate their locations, wind speeds, rainfall and flooding under different climate scenarios.*
+Tropical cyclones (also known as hurricanes and typhoons) as powerful marine storms which can pose a significant threat to coastal communities. Their strong winds and rainfall can lead to widespread damage and dangerous coastal flooding, posing a real threat to life and property. Since high quality satellite records of these storms go back only a few decades, it is a challenge to assess their associated risks from historical data alone. Therefore, statistical simulations offer a valuable tool to evaluate storm locations, wind speeds, rainfall and flooding under different climate scenarios.
 
-*For our tropical cyclone risk analyses, we use STORM synthetically generated tropical cyclones. This dataset offers 10,000 years of statistically generated tracks and intensities for every ocean globally and projects out to 2050. For more information on these tracks, see the following publications:*
+We analyse tropical cyclone risk by generating thousands of years of simulated storm tracks using the open source STORM model <a href='https://www.nature.com/articles/s41597-020-0381-2' target='_blank'>(Bloemendaal et al., 2020)</a>. Using this data, we can make estimates of tropical cyclone probabilities for 1980-2017 and 2015-2050 under RCP8.5 <a href='https://www.science.org/doi/10.1126/sciadv.abm8438' target='_blank'>(Bloemendaal et al., (2022))</a>. We can use these tracks to answer questions such as:
 
-<a href='https://www.nature.com/articles/s41597-020-0381-2' target='_blank'>Bloemendaal et al., (2020)</a>
+**How often will a community see cyclones of a specific intensity?**
 
-<a href='https://www.science.org/doi/10.1126/sciadv.abm8438' target='_blank'>Bloemendaal et al., (2022)</a> 
+We can count the number of simulated tracks that approach a location within a specific distance. This distance is often set at 100km but can vary depending on the application. 
 
-### Intensity Return Periods <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
-We can use simulated tropical cyclone tracks to determine how often storms of different intensities approach a location. Specifically, for our analysis we look at storms passing within 100km. The distance from each storm center and grid point on a high resolution grid is calculated. Where this distance is less than or equal to 100km, the category of the storm (Tropical storm - category 5) is recorded. Across all storms and years, the number of storms passing each grid point is counted for each category, then divided by 10,000 to obtain the mean number of storms passing annually.
+**How strong will tropical cyclone winds be?**
 
-We are able to use this analysis to derive return periods and the number of storms per year.
+Wind speeds are highest just outside of the eyewall of a hurricane and generally decrease with distance. The simulated tracks we employ only provide information about the storm location, size and central intensity. To expand each of these tracks into full surface wind and pressure fields, we use the parametric model of <a href='https://journals.ametsoc.org/view/journals/mwre/108/8/1520-0493_1980_108_1212_aamotw_2_0_co_2.xml' target='_blank'>Holland, 1980</a>. We then use the <a href='https://climada-python.readthedocs.io/en/stable/' target='_blank'>CLIMADA</a> Python toolbox to generate these wind fields for thousands of years, allowing us to do a statistical analyses and estimate windspeeds ar 50, 100 and 200 year return periods.
 
+**How high will the storm surge be?**
 
-### Wind Speed Return Periods <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
-The Holland model <a href='https://journals.ametsoc.org/view/journals/mwre/108/8/1520-0493_1980_108_1212_aamotw_2_0_co_2.xml' target='_blank'>(Holland, 1980)</a>  offers a way to expand synthetic tracks into 2 dimensional wind and pressure fields at the surface. By applying this model to 3000 years of simulated tracks, we can estimate reliable windspeed return periods around the world. To do this, we use the <a href='https://climada-python.readthedocs.io/en/stable/' target='_blank'>CLIMADA</a> Python toolbox, which offers workflows that can automate this analysis.
+We can perform numerical ocean simulations to estimate storm surge risk at a location. See [here](/risk_coastal/) for more information.
