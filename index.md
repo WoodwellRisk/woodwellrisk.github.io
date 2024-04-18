@@ -9,9 +9,9 @@ In the risk group at Woodwell Climate Research Center, we perform a variety of c
 
 It is part of our mission to ensure that everything we do is open access and open source. On this website you can find more information on the methodologies used in our analysis suite and the code used to generate our data. 
 
-For more information on what we do, please read about our [Just Access](https://www.woodwellclimate.org/project/just-access/) initiative and visit the main website for [Woodwell Climate Research Center](https://www.woodwellclimate.org/).
+For more information on what we do, please read about our <a href='https://www.woodwellclimate.org/project/just-access/' target='_blank'>Just Access</a> initiative and visit the main website for <a href='https://www.woodwellclimate.org/' target='_blank'>Woodwell Climate Research Center</a>.
 
-Many of our datasets can be viewed using our interactive data viewer.
+You can also explore some of our datasets using our <a href='https://woodwellrisk.github.io/viewer/' target='_blank'>interactive data viewer</a>.
 
 ### How to use this website
 
