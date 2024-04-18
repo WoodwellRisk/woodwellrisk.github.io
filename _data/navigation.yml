@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: "Data Viewer"
+    url: https://woodwellrisk.github.io/viewer/
+
   - title: "Just Access"
     url: https://www.woodwellclimate.org/project/just-access/
   
