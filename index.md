@@ -11,8 +11,6 @@ It is part of our mission to ensure that everything we do is open access and ope
 
 For more information on what we do, please read about our <a href='https://www.woodwellclimate.org/project/just-access/' target='_blank'>Just Access</a> initiative and visit the main website for <a href='https://www.woodwellclimate.org/' target='_blank'>Woodwell Climate Research Center</a>.
 
-You can also explore some of our datasets using our <a href='https://woodwellrisk.github.io/viewer/' target='_blank'>interactive data viewer</a>.
-
 ### How to use this website
 
 You can navigate through the different sections of this website using the sidebar. 
