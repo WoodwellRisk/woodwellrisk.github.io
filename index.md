@@ -1,6 +1,8 @@
 ---
 layout: single
 author_profile: false
+sidebar:
+  nav: "docs"
 ---
 
 In the risk group at Woodwell Climate Research Center, we perform a variety of climate analyses in order to deliver comprehensive risk assessments. 
@@ -9,4 +11,14 @@ It is part of our mission to ensure that everything we do is open access and ope
 
 For more information on what we do, please read about our [Just Access](https://www.woodwellclimate.org/project/just-access/) initiative and visit the main website for [Woodwell Climate Research Center](https://www.woodwellclimate.org/).
 
-This website is currently under construction and will be available again soon!
+Many of our datasets can be viewed using our interactive data viewer.
+
+### How to use this website
+
+You can navigate through the different sections of this website using the sidebar. 
+
+Each of our climate themes has it's own page under **Climate Risks**. On each page, you will find an overview of our analyses, including information on methodology (or where to go to find it). 
+
+Under the **Data & Tools** section, we provide information on the datasets we use (e.g. CMIP model ensembles), and some of our key tools.
+
+Where a GitHub repository is available, click on the octocat ![GH Logo](/assets/images/github-mark.png) to be taken to the code.
