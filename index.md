@@ -5,6 +5,10 @@ sidebar:
   nav: "docs"
 ---
 
+<p align="center">
+  <img src="https://github.com/WoodwellRisk/.github/blob/main/profile/git_banner.png" />
+</p>
+
 In the risk group at Woodwell Climate Research Center, we perform a variety of climate analyses in order to deliver comprehensive risk assessments. 
 
 It is part of our mission to ensure that everything we do is open access and open source. On this website you can find more information on the methodologies used in our analysis suite and the code used to generate our data. 
