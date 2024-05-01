@@ -5,9 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-<p align="center">
-  <img src="https://github.com/WoodwellRisk/.github/blob/main/profile/git_banner.png" />
-</p>
+![Validation image](/assets/images/git_banner.png)
 
 In the risk group at Woodwell Climate Research Center, we perform a variety of climate analyses in order to deliver comprehensive risk assessments. 
 
