@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 sidebar:
   nav: "docs"
-permalink: /tools_warming-levels/
+permalink: /tools/warming-levels/
 ---
 
 # Warming Levels

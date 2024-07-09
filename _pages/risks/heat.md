@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 sidebar:
   nav: "docs"
-permalink: /risk_heat/
+permalink: /risks/heat/
 ---
 # Heat
 
@@ -12,16 +12,16 @@ permalink: /risk_heat/
 ### Lethal Heat <a href="https://github.com/WoodwellRisk/lethal_heat" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
 In very hot or very humid conditions, heat can become lethal to people exposed for extended periods of time. This metric uses experimental evidence from <a href='https://pubmed.ncbi.nlm.nih.gov/34913738' target='_blank'>Vecellio et al. (2022)</a> to estimate when and where 'lethal' temperature and humidity occurs from an ensemble of global climate datasets.  
 
-For more information, see our publication <a href='https://www.science.org/doi/10.1126/sciadv.adg9297' target='_blank'>(Powis et al., 2023)</a>.
+For more information, see our publication <a href='https://www.science.org/doi/10.1126/sciadv.adg9297' target='_blank'>Powis et al. (2023)</a>.
 
 ### Extreme Heat
-Many communities will have some level of adaptation to their historical temperature conditions. Our Extreme Heat metric calculates the temperature at which only 5% of days exceed during a baseline period and estimates how often that will occur under future climates. This is useful to examine how historical adaptation measures will be challenged. To calculate this, we use daily temperature data from 17 CMIP6 ensemble members, which have been bias adjusted and downscaled (see **[Climate Data](/tools_climate-data/)**). 
+Many communities will have some level of adaptation to their historical temperature conditions. Our Extreme Heat metric calculates the temperature at which only 5% of days exceed during a baseline period and estimates how often that will occur under future climates. This is useful to examine how historical adaptation measures will be challenged. To calculate this, we use daily temperature data from 17 CMIP6 ensemble members, which have been bias adjusted and downscaled (see **[Climate Data](/tools/climate-data/)**). 
 
 ### Heat Danger Days
-Heat Index (see <a href='https://www.weather.gov/ama/heatindex' target='_blank'>here</a>) combined temperature and relative humidity to estimate the temperature perceived by humans. The National Weather Service defines 39.4C (103F) as a 'dangerous' threshold. Above this threshold, exposed people may experience heat cramps, exhaustion and possibly heast stroke. To calculate this, we use daily temperature data from 17 CMIP6 ensemble members, which have been bias adjusted and downscaled (see **[Climate Data](/tools_climate-data/)**)
+Heat Index (see <a href='https://www.weather.gov/ama/heatindex' target='_blank'>here</a>) combined temperature and relative humidity to estimate the temperature perceived by humans. The National Weather Service defines 39.4C (103F) as a 'dangerous' threshold. Above this threshold, exposed people may experience heat cramps, exhaustion and possibly heast stroke. To calculate this, we use daily temperature data from 17 CMIP6 ensemble members, which have been bias adjusted and downscaled (see **[Climate Data](/tools/climate-data/)**)
 
 ### Lost Productivity <a href="https://github.com/WoodwellRisk/Lost_Productivity" target="_blank">![GH Logo](/assets/images/github-mark.png)</a>
 
 When workers are exposed to high temperatures and high humidity, their health can be significantly impacted, which in turn can have consequences for productivity. For this metric, we can analyse ensembles of climate data to estimate percentage losses in producivity of medium and heavy outdoor workers. 
 
-This metric is based on work by <a href='https://www.nature.com/articles/s41467-021-27328-y#data-availability' target='_blank'>Parsons et al., (2021)</a> , which you can view for more methodology information.
+This metric is based on work by <a href='https://www.nature.com/articles/s41467-021-27328-y#data-availability' target='_blank'>Parsons et al. (2021)</a> , which you can view for more methodology information.

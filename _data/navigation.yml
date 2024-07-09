@@ -11,21 +11,21 @@ docs:
   - title: Climate Risks
     children:
     - title: "Heat"
-      url: /risk_heat/
-    - title: "Wildfire"
-      url: /risk_fire/
+      url: /risks/heat/
+    - title: "Wildfires"
+      url: /risks/fires/
     - title: "Drought & Water"
-      url: /risk_drought-water/
+      url: /risks/drought-water/
     - title: "Flooding"
-      url: /risk_flooding/
+      url: /risks/flooding/
     - title: "Tropical Cyclones"
-      url: /risk_tropical-cyclone/
+      url: /risks/tropical-cyclones/
     - title: "Agriculture"
-      url: /risk_agriculture/
+      url: /risks/agriculture/
       
   - title: Data & Tools
     children:
     - title: "Climate Data"
-      url: /tools_climate-data/
+      url: /tools/climate-data/
     - title: "Warming Levels"
-      url: /tools_warming-levels/
+      url: /tools/warming-levels/

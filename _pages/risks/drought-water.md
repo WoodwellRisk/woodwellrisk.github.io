@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 sidebar:
   nav: "docs"
-permalink: /risk_drought-water/
+permalink: /risks/drought-water/
 ---
 
 # Drought & Water Scarcity
@@ -17,4 +17,4 @@ We use the self-calibrated PDSI (<a href='https://journals.ametsoc.org/view/jour
 ### Water Scarcity Index
 This index is a relative global percentile ranking system derived from ten hydrological indicators: historical and future water stress, historical water depletion, future water supply, future water demand, future seasonal variability, historical interannual and seasonal variability of water supply, historical drought risk, and environmental flow limit.
 
-Historical indicators are derived from Aqueduct 3.0, future indicators from Aqueduct Future, and environmental flow limit from <a href='https://www.nature.com/articles/s41586-019-1594-4' target='_blank'> de Graaf et al., (2019)</a>. Each indicator is standardized by resampling to ∼10 × 10 km using nearest neighbor sampling and remapping to an interval of 0–10 of increasing adverse (more water scarce) risk. Each indicator is weighted according to the default scheme developed by Aqueduct based on corporate water experts. Different weighting schemes relevant to specific industries can be applied. The standardized scores of all indicators of a single pixel are summed to give the pixel's total standardized score. All of the total standardized scores are then ranked by percentile. In the index, the overall score of a pixel is percentile rank, relative to the water scarcity of all other pixels around the world, with higher values representing more water scarce regions.
+Historical indicators are derived from Aqueduct 3.0, future indicators from Aqueduct Future, and environmental flow limit from <a href='https://www.nature.com/articles/s41586-019-1594-4' target='_blank'> de Graaf et al. (2019)</a>. Each indicator is standardized by resampling to ∼10 × 10 km using nearest neighbor sampling and remapping to an interval of 0–10 of increasing adverse (more water scarce) risk. Each indicator is weighted according to the default scheme developed by Aqueduct based on corporate water experts. Different weighting schemes relevant to specific industries can be applied. The standardized scores of all indicators of a single pixel are summed to give the pixel's total standardized score. All of the total standardized scores are then ranked by percentile. In the index, the overall score of a pixel is percentile rank, relative to the water scarcity of all other pixels around the world, with higher values representing more water scarce regions.

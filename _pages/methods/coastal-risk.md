@@ -3,11 +3,11 @@ layout: single
 author_profile: false
 sidebar:
   nav: "docs"
-permalink: /method_crisk/
+permalink: /methods/coastal-risk/
 ---
 
 # A Coastal Risk Framework for Tropical Coastal Storm Surge Risk
-*The development of this framework was presented at the international Ocean Sciences Meeting 2024 in New Orleans. You can view the poster by clicking here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10737286.svg)](https://doi.org/10.5281/zenodo.10737286)*
+*The development of this framework was presented at the international Ocean Sciences Meeting 2024 in New Orleans. You can view the poster by clicking here: <a href="https://doi.org/10.5281/zenodo.10737286" target="_blank">![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10737286.svg)</a>*
 
 *Bespoke storm surge and flood risk assessments play a crucial role in empowering coastal communities to build resilience to the impacts of tropical cyclones. Our novel modelling framework accurately estimates the magnitude of these risks, going from cyclone tracks to very high resolution projections of flood extent. Forming a part of our extensive climate assessment suite, this framework is designed to be efficient and flexible, ensuring delivery within 6 weeks for anywhere in the world. As risk profiles change with rising sea levels and evolving storms, the need for this type of analysis is growing. Here, we present the framework for three at-risk regions around the world which demonstrate this need and the full range of the framework.*
 
@@ -17,7 +17,7 @@ The framework consists of three key modelling components:
 
 **Hurricane Model** 
 
-3000 years of synthetic tracks from the STORM dataset [3,4] are expanded into 2 dimensional pressure and wind stress fields using the Holland model [5] and a parametric wind stress relationship [6]. These fields are used to force an ocean model. Wind and pressure fields are generated using the <a href='https://github.com/davbyr/ParaTC' target='_blank'>ParaTC</a>  Python package.
+3000 years of synthetic tracks from the STORM dataset [3,4] are expanded into 2 dimensional pressure and wind stress fields using the Holland model [5] and a parametric wind stress relationship [6]. These fields are used to force an ocean model. Wind and pressure fields are generated using the <a href='https://github.com/davbyr/ParaTC' target='_blank'>ParaTC</a> Python package.
 
 **Ocean Model** 
 
@@ -34,7 +34,7 @@ The ROMS model compares will with observations. For maximum surge, we see a corr
 
 **Inundation Model** 
 
-LISFLOOD-FP is used to simulate inundation at a very high resolution (1-30m) using a machine learning enhanced digital elevation model [8]. Where available, coastal defenses and structures are incorporated. See our [flooding page](/risk_flooding) for more information.
+LISFLOOD-FP is used to simulate inundation at a very high resolution (1-30m) using a machine learning enhanced digital elevation model [8]. Where available, coastal defenses and structures are incorporated. See our [flooding page](/risks/flooding) for more information.
 
 **Connecting ROMS to the Flood Model**
 
