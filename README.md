@@ -23,7 +23,7 @@ Make a copy of `_pages/risk_template.md` and edit it as you like.
 
 To create a sidebar navigation link for the page:
 
-1. Name the `permalink` in the file header to the name of the file. This is the URL extension that corresponds to the page, e.g. `permalink: /risk_fire/` corresponds to `woodwellrisk.github.io/risk_fire`.
+1. Name the `permalink` in the file header to the name of the file. This is the URL extension that corresponds to the page, e.g. `permalink: /risks/fire/` corresponds to `woodwellrisk.github.io/risks/fire`.
 2. Go into `_data/navigation.yml`.
 3. Copy and paste a `title` and `url` line. Rename the title (what will appear on the sidebar) and change the url to match `permalink`.
 
