@@ -19,7 +19,7 @@ Here are some important bits of the file structure:
 To edit an existing webpage, just edit its corresponding markdown file in `_pages/`.
 
 ### Adding new webpages
-Make a copy of `_pages/risk_template.md` and edit it as you like.
+Make a copy of `_pages/risks/template.md` and edit it as you like.
 
 To create a sidebar navigation link for the page:
 
