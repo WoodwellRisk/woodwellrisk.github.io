@@ -21,4 +21,4 @@ Each of our climate themes has it's own page under **Climate Risks**. On each pa
 
 Under the **Data & Tools** section, we provide information on the datasets we use (e.g. CMIP model ensembles), and some of our key tools.
 
-Where a GitHub repository is available, click on the octocat ![GH Logo](/assets/images/github-mark.png) to be taken to the code.
+Woodwell Risk strives to make all of our code and data open acess and open source. If we have published code for generating a particular dataset or for demonstrating a given method, you can click on the GitHub icon <img src="/assets/images/github-icon.png" alt="GitHub icon" style="width:33px;"/> to be taken to its repository. You can also explore some datasets interactively by clicking the display icon <img src="/assets/images/display-icon.svg" alt="display icon" style="width: 33px;"/> if it is included in the dataset's name.
