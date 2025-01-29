@@ -22,4 +22,4 @@ Wind speeds are highest just outside of the eyewall of a hurricane and generally
 
 **How high will the storm surge be?**
 
-We can perform numerical ocean simulations to estimate storm surge risk at a location. See [here](/methods/coastal-risk/) for more information.
+We can perform numerical ocean simulations to estimate storm surge risk at a location. See our [coastal risk methodology](/methods/coastal-risk/) for more information.
