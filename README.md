@@ -6,7 +6,10 @@ This website framework is based on a fork of minimal-mistakes, which is a Jekyll
 
 You can edit files directly in the Github editor, however it is not recommended. You should clone this repository onto your machine and make any edits/additions there. You can then add, commit and push your changes. Once Github receives your pushed changed, it will automatically rebuild and deploy the website. If this fails for whatever reason, a red x will eventually appear on the repository. The website will always be rendered as the last working version, so errors aren't a huge problem if dealt with quickly.
 
-To avoid accidentally pushing errors to the website, you can run a local server and open it in your browser. To set this up, follow the instructions [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+To avoid accidentally pushing errors to the website, you can run a local server and open it in your browser. To set this up, follow the instructions on this [GitHub Pages explainer](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). If everything is working, you can use this command to see a live version of the site as you make changes:
+```
+bundle exec jekyll serve
+```
 
 ### File Structure
 Here are some important bits of the file structure:
