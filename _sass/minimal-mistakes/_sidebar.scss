@@ -51,12 +51,15 @@
   h5,
   h6 {
     margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    // font-family: $sans-serif-narrow;
+    font-family: $header-font-family;
   }
 
   p,
   li {
-    font-family: $sans-serif;
+    // font-family: $sans-serif;
+    // font-family: $ginto;
+    font-family: $global-font-family;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -173,7 +176,8 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  // font-family: $sans-serif;
+  font-family: $global-font-family;
   font-size: $type-size-5;
 }
 
@@ -190,7 +194,8 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  // font-family: $sans-serif;
+  font-family: $global-font-family;
   z-index: 20;
   cursor: pointer;
 

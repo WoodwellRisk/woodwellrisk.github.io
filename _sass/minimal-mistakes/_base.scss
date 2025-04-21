@@ -2,6 +2,26 @@
    BASE ELEMENTS
    ========================================================================== */
 
+@font-face {
+  font-family: "ginto";
+  src: url("../../assets/fonts/GintoNormal-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ginto-medium";
+  src: url("../../assets/fonts/GintoNormal-Medium.ttf");
+}
+
+@font-face {
+  font-family: "ginto-bold";
+  src: url("../../assets/fonts/GintoNormal-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ginto-italic";
+  src: url("../../assets/fonts/GintoNormal-RegularIta.ttf");
+}
+
 html {
   /* sticky footer fix */
   position: relative;
