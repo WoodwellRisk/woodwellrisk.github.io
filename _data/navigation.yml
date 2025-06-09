@@ -22,6 +22,8 @@ docs:
       url: /risks/tropical-cyclones/
     - title: "Agriculture"
       url: /risks/agriculture/
+    - title: "Permafrost"
+      url: /risks/permafrost/
       
   - title: Data & Tools
     children:
