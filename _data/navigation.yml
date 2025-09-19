@@ -1,0 +1,35 @@
+# main links
+main:
+  - title: "Just Access"
+    url: https://www.woodwellclimate.org/project/just-access/
+
+  - title: "GitHub"
+    url: https://github.com/woodwellrisk
+
+  - title: "Zenodo"
+    url: https://zenodo.org/communities/wwcrc-risk/
+
+docs:
+  - title: Climate Risks
+    children:
+    - title: "Heat"
+      url: /risks/heat/
+    - title: "Wildfires"
+      url: /risks/fires/
+    - title: "Drought & Water"
+      url: /risks/drought-water/
+    - title: "Flooding"
+      url: /risks/flooding/
+    - title: "Tropical Cyclones"
+      url: /risks/tropical-cyclones/
+    - title: "Agriculture"
+      url: /risks/agriculture/
+    - title: "Permafrost"
+      url: /risks/permafrost/
+      
+  - title: Data & Tools
+    children:
+    - title: "Climate Data"
+      url: /tools/climate-data/
+    - title: "Warming Levels"
+      url: /tools/warming-levels/
