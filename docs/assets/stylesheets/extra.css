@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "ginto";
+    src: url("../fonts/GintoNormal-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ginto-medium";
+    src: url("../fonts/GintoNormal-Medium.ttf");
+}
+
+@font-face {
+    font-family: "ginto-bold";
+    src: url("../fonts/GintoNormal-Bold.ttf");
+}
+
+@font-face {
+    font-family: "ginto-italic";
+    src: url("../fonts/GintoNormal-RegularIta.ttf");
+}
+
+/* :root {
+    .md-main__inner .md-grid {
+        margin-top: 0;
+    }
+} */
+
+/* :root {
+    --md-text-font: "ginto"; 
+} */
+
+/* .md-main__inner, .md-grid {
+    margin-top: 0;
+} */ 
+
+.md-header {
+    box-shadow: none;
+    height: 3rem;
+    align-content: center;
+}
+
+.md-header__inner {
+    align-items: center;
+}
+
+/* .md-main__inner {
+    margin-top: 0rem;
+} */
+
+article.md-content__inner {
+    /* 
+    margin-left and right only for large screens
+    */
+    margin-left: 0rem;
+    margin-right: 4rem;
+}
+
+article.md-content__inner > h1, article.md-typeset > h1 {
+    margin-bottom: 0;
+}
+
+/* 
+    this needs to only be for widescreen 
+    for some reason, this is only working with both rules present separately
+*/
+nav > label.md-nav__title {
+    display: none;
+}
+
+.md-nav__title {
+    display: none;
+}
+
+.md-nav__link {
+    font-size: 0.8rem;
+}
+
+.md-nav__item--section {
+    margin-top: 0;
+}
+
+/* this only needs to be for wide screen */
+/* and could be improved by being generalized to all but the first child */
+#__nav_2_label, #__nav_3_label {
+    margin-top: 2rem;
+}
+
+/* .md-footer {
+    margin: 3rem 0;
+} */
+
+.md-footer-meta {
+    height: 4rem;
+    /* margin: 1rem 0; */
+}
+
+.md-footer-meta__inner {
+    /* height: 4rem; */
+    height: 100%;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "ginto-medium";
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav
+.nav__list .nav__items a,
+.nav__sub-title {
+    font-family: 'ginto'
+} */
+
+/* .page__content {
+    p,
+    li,
+    dl {
+        font-size: 0.8em;
+    }
+}
+
+.sidebar p, .sidebar li {
+    font-size: 0.8em;
+} */

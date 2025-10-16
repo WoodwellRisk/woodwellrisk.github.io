@@ -1,9 +1,9 @@
 ---
-layout: single
-author_profile: false
-sidebar:
-  nav: "docs"
-permalink: /methods/coastal-risk/
+template: main.html
+
+hide:
+  - toc
+  - path
 ---
 
 # A Coastal Risk Framework for Tropical Coastal Storm Surge Risk
@@ -11,16 +11,14 @@ permalink: /methods/coastal-risk/
 
 *Bespoke storm surge and flood risk assessments play a crucial role in empowering coastal communities to build resilience to the impacts of tropical cyclones. Our novel modelling framework accurately estimates the magnitude of these risks, going from cyclone tracks to very high resolution projections of flood extent. Forming a part of our extensive climate assessment suite, this framework is designed to be efficient and flexible, ensuring delivery within 6 weeks for anywhere in the world. As risk profiles change with rising sea levels and evolving storms, the need for this type of analysis is growing. Here, we present the framework for three at-risk regions around the world which demonstrate this need and the full range of the framework.*
 
-### Overview
-
+## Overview
 The framework consists of three key modelling components: 
 
-**Hurricane Model** 
+### Hurricane Model
 
 3000 years of synthetic tracks from the STORM dataset [3,4] are expanded into 2 dimensional pressure and wind stress fields using the Holland model [5] and a parametric wind stress relationship [6]. These fields are used to force an ocean model. Wind and pressure fields are generated using the <a href='https://github.com/davbyr/ParaTC' target='_blank'>ParaTC</a> Python package.
 
-**Ocean Model** 
-
+### Ocean Model
 The Regional Ocean Modelling System (ROMS) [7] is used to simulate sea surface height. The domain is generated using bathymetry from GEBCO2023 and uses wetting and drying. 1km grids can be nested within larger 5-10km grids to provide high resolution analyses.
 
 The ocean ROMS component of the framework is validated by comparing simulated storm surge heights with those measured at tide gauges. Measured storm surge heights are estimated by subtracting a tidal harmonic analysis using the <a href='https://pypi.org/project/UTide/' target='_blank'>UTide</a> Python package. This is done according to the guidelines set out in [9].
@@ -32,11 +30,11 @@ This validation be done for any region of interest, however time series lengths 
 The ROMS model compares will with observations. For maximum surge, we see a correlation of ~0.84 and Maximum Absolute Error of 17cm. Percentiles are also important as we will be using this framework to estimate return levels. Our validation shows good agreement here too, with some overestimation for lower percentiles, but a correction at higher levels.
 
 
-**Inundation Model** 
+### Inundation Model
 
 LISFLOOD-FP is used to simulate inundation at a very high resolution (1-30m) using a machine learning enhanced digital elevation model [8]. Where available, coastal defenses and structures are incorporated. See our [flooding page](/risks/flooding) for more information.
 
-**Connecting ROMS to the Flood Model**
+### Connecting ROMS to the Flood Model
 
 The final output from the ROMs analysis is a set of return levels along the coast. This tells us about the maximum surge height, however does not tell us about water level time series or total water levels (including tide) relative to a locally relevant datum. Therefore, we use information from ROMS to generate statistical storm surge time series that can be used to provide water level boundary conditions to the flood model.
 
@@ -46,19 +44,17 @@ Once the storm surge profile is generated, we add an oscillating time series whi
 
 ![Validation image](/assets/images/method_crisk/SS_tide.png)
 
-### Regional Storm Surge Examples
-
+## Regional Storm Surge Examples
 The image below shows examples of coastal 100-yr return levels in the Arabian Sea and Bay of Bengal.
 
 ![Storm surge examples](/assets/images/method_crisk/surge_examples.png)
 
-### Local Flood Extent Example
-
+## Local Flood Extent Example
 The image below shows an example of flood extent mapping for Charleston in South Carolina.
 
 ![100 year Flood extent at Charleston, SC](/assets/images/method_crisk/flood_extent.png)
 
-### References
+## References
 [1] https://www.jstor.org/publisher/wcrc
 
 [2] https://www.woodwellclimate.org/project/just-access/.

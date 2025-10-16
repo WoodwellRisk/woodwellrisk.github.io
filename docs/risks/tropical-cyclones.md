@@ -1,12 +1,12 @@
 ---
-layout: single
-author_profile: false
-sidebar:
-  nav: "docs"
-permalink: /risks/tropical-cyclones/
+template: main.html
+
+hide:
+  - toc
+  - path
 ---
 
-# Tropical Cyclones <a href="https://github.com/WoodwellRisk/CRisk" target="_blank"><img src="/assets/images/github-icon.png" alt="GitHub icon" style="width:33px;"/></a> <a href="https://woodwellrisk.github.io/viewer?layer=tc_rp" target="_blank"><img src="/assets/images/display-icon.svg" alt="display icon" style="width: 33px;"/></a>
+# Tropical Cyclones <a href="https://github.com/WoodwellRisk/CRisk" target="_blank">:simple-github:{ .md }</a> <a href="https://woodwellrisk.github.io/viewer?category=coastal-risk&layer=tc_rp" target="_blank">:material-monitor:{ .md }</a>
 
 Tropical cyclones (also known as hurricanes and typhoons) are powerful marine storms which can pose a significant threat to coastal communities. Their strong winds and rainfall can lead to widespread damage and dangerous coastal flooding, posing a real threat to life and property. Since high quality satellite records of these storms go back only a few decades, it is a challenge to assess their associated risks from historical data alone. Therefore, statistical simulations offer a valuable tool to evaluate storm locations, wind speeds, rainfall and flooding under different climate scenarios.
 
@@ -22,4 +22,4 @@ Wind speeds are highest just outside of the eyewall of a hurricane and generally
 
 **How high will the storm surge be?**
 
-We can perform numerical ocean simulations to estimate storm surge risk at a location. See our [coastal risk methodology](/methods/coastal-risk/) for more information.
+We can perform numerical ocean simulations to estimate storm surge risk at a location. See our [coastal risk methodology]('../methods/coastal-risk/') for more information.

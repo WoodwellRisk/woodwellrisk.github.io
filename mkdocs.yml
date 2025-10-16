@@ -1,0 +1,68 @@
+site_name: Woodwell Risk methodology
+# site_name: ""
+site_url: https://woodwellrisk.github.io/
+# locale                   : "en-US"
+# title                    : "Woodwell Risk"
+# title_separator          : "-"
+# subtitle                 : " Analyses, methods, and code "
+copyright: Copyright &copy; 2025 - Woodwell Climate Research Center
+
+nav:
+  # - Home: index.md
+  - Climate risks:
+    - Heat: risks/heat.md
+    - Wildfires: risks/fires.md
+    - Drought and water: risks/drought-water.md
+    - Flooding: risks/flooding.md
+    - Tropical cyclones: risks/tropical-cyclones.md
+    - Agriculture: risks/agriculture.md
+    - Permafrost: risks/permafrost.md
+  - Data and tools:
+    - Climate data: tools/climate-data.md
+    - Warming levels: tools/warming-levels.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/risk_logo.png
+  favicon: assets/images/risk_logo.png
+  
+  font:
+    text: 'ginto'
+  
+  features:
+    - navigation.sections
+    - toc.integrate
+  
+  palette: 
+    # palette toggle for light mode
+    - scheme: default
+      toggle:
+        # icon: material/brightness-7
+        # icon: octicons-sun-16
+        icon: material-white-balance-sunny
+        name: Switch to dark mode
+    # palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        # icon: octicons-moon-24
+        name: Switch to light mode
+
+  # static pages to build
+  static_templates:
+    - 404.html
+
+# extra:
+#   social:
+#       - icon: fontawesome-solid-square-rss
+#       link: https://woodwellrisk.github.io/feed.xml
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
