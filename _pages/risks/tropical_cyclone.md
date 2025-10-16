@@ -6,7 +6,7 @@ sidebar:
 permalink: /risks/tropical-cyclones/
 ---
 
-# Tropical Cyclones <a href="https://github.com/WoodwellRisk/CRisk" target="_blank"><img src="/assets/images/github-icon.png" alt="GitHub icon" style="width:33px;"/></a> <a href="https://woodwellrisk.github.io/viewer?layer=tc_rp" target="_blank"><img src="/assets/images/display-icon.svg" alt="display icon" style="width: 33px;"/></a>
+# Tropical Cyclones <a href="https://github.com/WoodwellRisk/CRisk" target="_blank"><img src="/assets/images/github-icon.png" alt="GitHub icon" style="width:33px;"/></a> <a href="https://woodwellrisk.github.io/viewer?category=coastal-risk&layer=tc_rp" target="_blank"><img src="/assets/images/display-icon.svg" alt="display icon" style="width: 33px;"/></a>
 
 Tropical cyclones (also known as hurricanes and typhoons) are powerful marine storms which can pose a significant threat to coastal communities. Their strong winds and rainfall can lead to widespread damage and dangerous coastal flooding, posing a real threat to life and property. Since high quality satellite records of these storms go back only a few decades, it is a challenge to assess their associated risks from historical data alone. Therefore, statistical simulations offer a valuable tool to evaluate storm locations, wind speeds, rainfall and flooding under different climate scenarios.
 
