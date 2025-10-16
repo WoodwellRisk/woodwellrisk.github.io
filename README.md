@@ -26,7 +26,6 @@ hide:
   - toc
   - path
 ---
-
 ```
 
 
