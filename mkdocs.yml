@@ -21,6 +21,15 @@ nav:
     - Climate data: tools/climate-data.md
     - Warming levels: tools/warming-levels.md
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
 theme:
   name: material
   custom_dir: overrides
@@ -34,35 +43,37 @@ theme:
     - navigation.sections
     - toc.integrate
   
+  # https://fonts.google.com/icons
   palette: 
     # palette toggle for light mode
     - scheme: default
       toggle:
         # icon: material/brightness-7
         # icon: octicons-sun-16
-        icon: material-white-balance-sunny
-        name: Switch to dark mode
+        # icon: material/white-balance-sunny
+        icon: material/wb-sunny
+        name: Switch to light mode
     # palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
-        # icon: octicons-moon-24
-        name: Switch to light mode
+        # icon: material/brightness-4
+        icon: octicons/moon-24
+        name: Switch to dark mode
+
 
   # static pages to build
   static_templates:
     - 404.html
 
+#https://fontawesome.com/icons/square-rss?f=classic&s=solid
+extra:
+  social:
+    - icon: fontawesome/square-rss-solid-full
+      link: https://woodwellrisk.github.io/feed.xml
 # extra:
 #   social:
-#       - icon: fontawesome-solid-square-rss
-#       link: https://woodwellrisk.github.io/feed.xml
-
-markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+#     - icon: fontawesome/brands/github-alt
+#       link: https://github.com/squidfunk
 
 extra_css:
   - assets/stylesheets/extra.css
